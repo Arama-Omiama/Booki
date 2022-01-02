@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="images/logo/Booki@3x.png" type="image/x-icon">
+    <title>Booki</title>
+</head>
+<body>
+    <div class="container">
+        <!--First Part Search and filtering-->
+        <section>
+            <div class="nav">
+                <img class="img" src="images/logo/Booki.png" alt="">
+                <ul type="none" class="right">
+                    <li>Hébergements</li>
+                    <li>Activités</li>
+                </ul>
+            </div>
+    
+            <div class="search">
+                <h2>Trouvez votre Hébergements pour des vacances de reve</h2>
+                <p >En plein centre ville ou en pleine nature</p>
+                <div class="search-btn">
+                    <div class="svg">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                            <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+                        </svg>
+                    </div>
+                    
+                    <input type="text" placeholder="Marseille, France">
+                    <button>Rechercher</button>
+                </div>
+            </div>
+    
+            <div class="filtre" >
+                <H3 class="filtre-title">Filtres</H3>
+                <div class="categorie">
+                    <div class="svg-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-cash-coin" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M11 15a4 4 0 1 0 0-8 4 4 0 0 0 0 8zm5-4a5 5 0 1 1-10 0 5 5 0 0 1 10 0z"/>
+                            <path d="M9.438 11.944c.047.596.518 1.06 1.363 1.116v.44h.375v-.443c.875-.061 1.386-.529 1.386-1.207 0-.618-.39-.936-1.09-1.1l-.296-.07v-1.2c.376.043.614.248.671.532h.658c-.047-.575-.54-1.024-1.329-1.073V8.5h-.375v.45c-.747.073-1.255.522-1.255 1.158 0 .562.378.92 1.007 1.066l.248.061v1.272c-.384-.058-.639-.27-.696-.563h-.668zm1.36-1.354c-.369-.085-.569-.26-.569-.522 0-.294.216-.514.572-.578v1.1h-.003zm.432.746c.449.104.655.272.655.569 0 .339-.257.571-.709.614v-1.195l.054.012z"/>
+                            <path d="M1 0a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h4.083c.058-.344.145-.678.258-1H3a2 2 0 0 0-2-2V3a2 2 0 0 0 2-2h10a2 2 0 0 0 2 2v3.528c.38.34.717.728 1 1.154V1a1 1 0 0 0-1-1H1z"/>
+                            <path d="M9.998 5.083 10 5a2 2 0 1 0-3.132 1.65 5.982 5.982 0 0 1 3.13-1.567z"/>
+                          </svg>   
+                    </div>  
+                    <p>Economique</p>
+                </div>
+    
+                <div class="categorie">
+                    <div class="svg-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-person-fill" viewBox="1.5 2.1 16 16">
+                            <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                        </svg>   
+                    </div>  
+                    <p>Familial</p>
+                </div>
+    
+                <div class="categorie">
+                    <div class="svg-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-suit-heart-fill" viewBox="0 0 16 16">
+                            <path d="M4 1c2.21 0 4 1.755 4 3.92C8 2.755 9.79 1 12 1s4 1.755 4 3.92c0 3.263-3.234 4.414-7.608 9.608a.513.513 0 0 1-.784 0C3.234 9.334 0 8.183 0 4.92 0 2.755 1.79 1 4 1z"/>
+                        </svg>
+                    </div>  
+                    <p>Romantique</p>
+                </div>
+    
+                <div class="categorie">
+                    <div class="svg-1">
+                        <svg style="width:24px; height:24px" viewBox="2.5 5.5 24 24">
+                            <path fill="currentColor" d="M19,3L15,7L18,10L19,9L20,10L22,8L19,5V3M3,7L2,8L5,11V14L4,15V21H6V18L8,15H15V21H17V11L14,8L13,9H5L3,7Z" />
+                        </svg>
+                    </div>  
+                    <p>Animaux Aurotisés</p>
+                </div>
+            </div>
+            <div class="Total">
+                <svg style="width:24px;height:24px" viewBox="0 0 24 24">
+                    <path fill="currentColor" d="M11,15H13V17H11V15M11,7H13V13H11V7M12,2C6.47,2 2,6.5 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M12,20A8,8 0 0,1 4,12A8,8 0 0,1 12,4A8,8 0 0,1 20,12A8,8 0 0,1 12,20Z" />
+                </svg>
+                <p>Plus de 500 logements sont disponibles Dans cette ville</p>
+            </div>
+        </section>
+
+        <!--Second part Hébergement à Marseille-->
+
+        <section class="Total">
+            <div class="hebergement">
+                <h2>Hébergement à Merseille</h2>
+
+                <div class="card-flex">
+
+                    <div class="card">
+                        <img src="images/hebergements/4_small/1.jpg" alt="">
+                        <div class="card-detail">
+                            <h3>Auberge La Cannebière</h3>
+                            <p>Nuit à partir de <span>25€</span></p>
+                            
+                            <div class="flex">
+                                <svg style="width:16px;height:16px" viewBox="0 0 24 24">
+                                    <path fill="currentColor" d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z" />
+                                </svg>
+                                <svg style="width:16px;height:16px" viewBox="0 0 24 24">
+                                    <path fill="currentColor" d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z" />
+                                </svg>
+                                <svg style="width:16px;height:16px" viewBox="0 0 24 24">
+                                    <path fill="currentColor" d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z" />
+                                </svg>
+                                <svg style="width:16px;height:16px" viewBox="0 0 24 24">
+                                    <path fill="currentColor" d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z" />
+                                </svg>
+                                <svg style="width:16px;height:16px" viewBox="0 0 24 24" class="clr">
+                                    <path fill="currentColor" d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z" />
+                                </svg>
+                            </div>  
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="images/hebergements/4_small/2.jpg" alt="">
+                        <div class="card-detail">
+                            <h3>Hotel du port</h3>
+                            <p>Nuit à partir de <span>52€</span></p>
+                            
+                            <div class="flex">
+                                <svg style="width:16px;height:16px" viewBox="0 0 24 24">
+                                    <path fill="currentColor" d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z" />
+                                </svg>
+                                <svg style="width:16px;height:16px" viewBox="0 0 24 24">
+                                    <path fill="currentColor" d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z" />
+                                </svg>
+                                <svg style="width:16px;height:16px" viewBox="0 0 24 24">
+                                    <path fill="currentColor" d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z" />
+                                </svg>
+                                <svg style="width:16px;height:16px" viewBox="0 0 24 24">
+                                    <path fill="currentColor" d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z" />
+                                </svg>
+                                <svg style="width:16px;height:16px" viewBox="0 0 24 24" class="clr">
+                                    <path fill="currentColor" d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z" />
+                                </svg>
+                            </div>  
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="images/hebergements/4_small/3.jpg" alt="">
+                        <div class="card-detail">
+                            <h3>Hoel Les mouettes</h3>
+                            <p>Nuit à partir de <span>76€</span></p>
+                            
+                            <div class="flex">
+                                <svg style="width:16px;height:16px" viewBox="0 0 24 24">
+                                    <path fill="currentColor" d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z" />
+                                </svg>
+                                <svg style="width:16px;height:16px" viewBox="0 0 24 24">
+                                    <path fill="currentColor" d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z" />
+                                </svg>
+                                <svg style="width:16px;height:16px" viewBox="0 0 24 24">
+                                    <path fill="currentColor" d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z" />
+                                </svg>
+                                <svg style="width:16px;height:16px" viewBox="0 0 24 24">
+                                    <path fill="currentColor" d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z" />
+                                </svg>
+                                <svg style="width:16px;height:16px" viewBox="0 0 24 24" class="clr">
+                                    <path fill="currentColor" d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z" />
+                                </svg>
+                            </div>  
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="images/hebergements/4_small/4.jpg" alt="">
+                        <div class="card-detail">
+                            <h3>Hotel de la mer</h3>
+                            <p>Nuit à partir de <span>46€</span></p>
+                            
+                            <div class="flex">
+                                <svg style="width:16px;height:16px" viewBox="0 0 24 24">
+                                    <path fill="currentColor" d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z" />
+                                </svg>
+                                <svg style="width:16px;height:16px" viewBox="0 0 24 24">
+                                    <path fill="currentColor" d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z" />
+                                </svg>
+                                <svg style="width:16px;height:16px" viewBox="0 0 24 24">
+                                    <path fill="currentColor" d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z" />
+                                </svg>
+                                <svg style="width:16px;height:16px" viewBox="0 0 24 24">
+                                    <path fill="currentColor" d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z" />
+                                </svg>
+                                <svg style="width:16px;height:16px" viewBox="0 0 24 24" class="clr">
+                                    <path fill="currentColor" d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z" />
+                                </svg>
+                            </div>  
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="images/hebergements/4_small/5.jpg" alt="">
+                        <div class="card-detail">
+                            <h3>Auberge La Panier</h3>
+                            <p>Nuit à partir de <span>23€</span></p>
+                            
+                            <div class="flex">
+                                <svg style="width:16px;height:16px" viewBox="0 0 24 24">
+                                    <path fill="currentColor" d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z" />
+                                </svg>
+                                <svg style="width:16px;height:16px" viewBox="0 0 24 24">
+                                    <path fill="currentColor" d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z" />
+                                </svg>
+                                <svg style="width:16px;height:16px" viewBox="0 0 24 24">
+                                    <path fill="currentColor" d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z" />
+                                </svg>
+                                <svg style="width:16px;height:16px" viewBox="0 0 24 24">
+                                    <path fill="currentColor" d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z" />
+                                </svg>
+                                <svg style="width:16px;height:16px" viewBox="0 0 24 24" class="clr">
+                                    <path fill="currentColor" d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z" />
+                                </svg>
+                            </div>  
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="images/hebergements/4_small/6.jpg" alt="">
+                        <div class="card-detail">
+                            <h3>Hotel chez Amina</h3>
+                            <p>Nuit à partir de <span>96€</span></p>
+                            
+                            <div class="flex">
+                                <svg style="width:16px;height:16px" viewBox="0 0 24 24">
+                                    <path fill="currentColor" d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z" />
+                                </svg>
+                                <svg style="width:16px;height:16px" viewBox="0 0 24 24">
+                                    <path fill="currentColor" d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z" />
+                                </svg>
+                                <svg style="width:16px;height:16px" viewBox="0 0 24 24">
+                                    <path fill="currentColor" d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z" />
+                                </svg>
+                                <svg style="width:16px;height:16px" viewBox="0 0 24 24">
+                                    <path fill="currentColor" d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z" />
+                                </svg>
+                                <svg style="width:16px;height:16px" viewBox="0 0 24 24" class="clr">
+                                    <path fill="currentColor" d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z" />
+                                </svg>
+                            </div>  
+                        </div>
+                    </div>
+                </div>
+                <h3>Afficher Plus</h3>
+
+            </div>
+
+            <!----------------------------Populaire Part---------------------------------->
+            <div class="populaire">
+                    <h2>Les plus populaires</h2>
+    
+                        <div class="card-pop">
+                            <img src="images/hebergements/4_small/7.jpg" alt="">
+                            <div class="card-detail-pop">
+                                <h3>Hotel Le soleil du matin</h3>
+                                <p>Nuit à partir de <span>128€</span></p>
+                                
+                                <div class="flex">
+                                    <svg style="width:16px;height:16px" viewBox="0 0 24 24">
+                                        <path fill="currentColor" d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z" />
+                                    </svg>
+                                    <svg style="width:16px;height:16px" viewBox="0 0 24 24">
+                                        <path fill="currentColor" d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z" />
+                                    </svg>
+                                    <svg style="width:16px;height:16px" viewBox="0 0 24 24">
+                                        <path fill="currentColor" d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z" />
+                                    </svg>
+                                    <svg style="width:16px;height:16px" viewBox="0 0 24 24">
+                                        <path fill="currentColor" d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z" />
+                                    </svg>
+                                    <svg style="width:16px;height:16px" viewBox="0 0 24 24" class="clr">
+                                        <path fill="currentColor" d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z" />
+                                    </svg>
+                                </div>  
+                            </div>
+                        </div>
+
+                        <div class="card-pop">
+                            <img src="images/hebergements/4_small/8.jpg" alt="">
+                            <div class="card-detail-pop">
+                                <h3>Au coeur de l'eau Chambres d'hotes</h3>
+                                <p>Nuit à partir de <span>128€</span></p>
+                                
+                                <div class="flex">
+                                    <svg style="width:16px;height:16px" viewBox="0 0 24 24">
+                                        <path fill="currentColor" d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z" />
+                                    </svg>
+                                    <svg style="width:16px;height:16px" viewBox="0 0 24 24">
+                                        <path fill="currentColor" d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z" />
+                                    </svg>
+                                    <svg style="width:16px;height:16px" viewBox="0 0 24 24">
+                                        <path fill="currentColor" d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z" />
+                                    </svg>
+                                    <svg style="width:16px;height:16px" viewBox="0 0 24 24">
+                                        <path fill="currentColor" d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z" />
+                                    </svg>
+                                    <svg style="width:16px;height:16px" viewBox="0 0 24 24" class="clr">
+                                        <path fill="currentColor" d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z" />
+                                    </svg>
+                                </div>  
+                            </div>
+                        </div>
+
+                        <div class="card-pop">
+                            <img src="images/hebergements/4_small/9.jpg" alt="">
+                            <div class="card-detail-pop">
+                                <h3>Hotel Tout bleu et Blanc</h3>
+                                <p>Nuit à partir de <span>128€</span></p>
+                                
+                                <div class="flex">
+                                    <svg style="width:16px;height:16px" viewBox="0 0 24 24">
+                                        <path fill="currentColor" d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z" />
+                                    </svg>
+                                    <svg style="width:16px;height:16px" viewBox="0 0 24 24">
+                                        <path fill="currentColor" d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z" />
+                                    </svg>
+                                    <svg style="width:16px;height:16px" viewBox="0 0 24 24">
+                                        <path fill="currentColor" d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z" />
+                                    </svg>
+                                    <svg style="width:16px;height:16px" viewBox="0 0 24 24">
+                                        <path fill="currentColor" d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z" />
+                                    </svg>
+                                    <svg style="width:16px;height:16px" viewBox="0 0 24 24" class="clr">
+                                        <path fill="currentColor" d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z" />
+                                    </svg>
+                                </div>  
+                            </div>
+                        </div>
+            </div>
+        </section>
+        
+    </div>
+</body>
+</html>
